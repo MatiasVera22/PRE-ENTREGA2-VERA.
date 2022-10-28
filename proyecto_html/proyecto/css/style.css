@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*CSS DE INDEX*/
+
+@font-face {
+    font-family: 'Alkidenz';
+    src: url('Tenebra.otf');
+}
+
+@font-face {
+    font-family: 'Sary';
+    src: url('Sary\ Soft\ SemiBlod.otf');
+}
+
+@media (max-width: 600px){
+    ul{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+}
+body{
+    background: url(../multimedia/dek75fe-2e9ab32a-4d4d-4141-aa7c-6474fa36cae5.png);
+   background-size: cover;
+
+}
+.titulo{
+    background-color: blueviolet;
+    align-items: center;
+}
+
+.titulo_principal{
+    font-family: 'Alkidenz';
+    text-align: center;
+    font-size: 100px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+    background-color:pink;
+    margin-left: 50px;
+    margin-right: 70px;
+    border-radius:15px 15px 15px 15px;
+    border-style:ridge;
+    border-width: 10px;
+    border-color: white;
+    
+}
+.e_l{
+    font-family: 'Alkidenz';
+    
+
+}
+.boton{
+    background-color: cadetblue;
+    font-family:'Alkidenz';
+    border-radius: 20%;
+   width: 130%;
+   height: 130%;
+    text-align: center;
+    justify-items: center;
+
+}
+main{
+    display: grid;
+    grid-template-columns: 41% 59%;
+    height: 500px;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 20px;
+    
+}
+.div_imagen{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+img{
+  width: 80%;
+  height: 80%;
+  border-radius:15px 15px 15px 15px;
+    border-style:ridge;
+    border-width: 10px;
+    border-color: white;
+  
+}
+.div_uno{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height:70% ;
+}
+
+.p_uno{
+    font-family: 'Sary';
+    font-size: 25px;
+    background-color: cadetblue;
+    width: 100%;
+    height: 100%;
+    border-radius:15px 15px 15px 15px;
+    border-style:ridge;
+    border-width: 10px;
+    border-color: white;
+    
+ 
+}
+.div_footer{
+    background-color: aliceblue;
+    text-align: center;
+}
+.p_footer{
+    font-family: 'Alkidenz';
+    
+}
+/*FIN CSS DE INDEX*/
+
+/*CSS GALERIA*/
+.body_galeria{
+ 
+    background: url(./background.jpg);
+    background-size:cover;
+    background-color: darkblue;
+    
+
+
+}
+
+
+.titulo_galeria{
+    text-align: center;
+    font-family: 'Alkidenz';
+    text-align: center;
+    font-size: 70px;
+    color:darkcyan;
+   text-shadow: 0 0 50px black;
+}
+.main_galeria{
+    display:grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 20% 20% 20% 20%;
+    height: 3000px;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.img_sec{
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    border-style: ridge;
+    border-radius: 15px 15px 15px 15px;
+    border-width: 10px;
+    border-color: darkcyan;
+}
+.img_galeria{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    overflow: hidden;
+    border-style: none;
+    border-radius: 0%;
+}
+
+
+      
